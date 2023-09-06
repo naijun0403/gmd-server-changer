@@ -26,7 +26,7 @@ class PlatformType(enum.Enum):
     def get_host_file_path():
         current_platform = PlatformType.get_current_platform()
         if current_platform == PlatformType.Windows:
-            return r"C:\Windows\System32\drivers\\etc\\hosts"
+            return r"C:\Windows\System32\drivers\etc\hosts"
         elif current_platform == PlatformType.Linux:
             return "/etc/hosts"
         elif current_platform == PlatformType.Mac:
