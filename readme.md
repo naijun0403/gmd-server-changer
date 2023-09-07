@@ -1,6 +1,6 @@
 # gmd server changer
 
-change gmd server to any server you want by editing hosts file
+Change GeometryDash Server by editing hosts file
 
 ## how to use
 
